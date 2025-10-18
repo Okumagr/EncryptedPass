@@ -42,12 +42,12 @@ Instalação das dependências:
 python -m venv venv
 source venv/bin/activate   # macOS / Linux
 venv\Scripts\activate      # Windows
-
 pip install -r requirements.txt
-
-**🚀 Como usar**
+```
+## 🚀 Como usar
 
 1) Executando pelo Python
+
 ```bash
 python EncryptedPass.py --password "SuaSenhaBase" --salt "SeuSalt"
 Executável
@@ -63,3 +63,4 @@ Copiar código
 ./dist/EncryptedPass --password "SuaSenhaBase" --salt "SeuSalt"
 
 ./dist/EncryptedPass --password "SuaSenhaBase" --salt "SeuSalt"
+```
