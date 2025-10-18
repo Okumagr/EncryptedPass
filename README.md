@@ -45,18 +45,21 @@ venv\Scripts\activate      # Windows
 
 pip install -r requirements.txt
 
-🚀 Como usar
+**🚀 Como usar**
 
 1) Executando pelo Python
+```bash
 python EncryptedPass.py --password "SuaSenhaBase" --salt "SeuSalt"
-
-2) Executável
-
+Executável
 Windows:
 
+powershell
+Copiar código
 dist\EncryptedPass.exe --password "SuaSenhaBase" --salt "SeuSalt"
-
-
 Linux / macOS:
+
+bash
+Copiar código
+./dist/EncryptedPass --password "SuaSenhaBase" --salt "SeuSalt"
 
 ./dist/EncryptedPass --password "SuaSenhaBase" --salt "SeuSalt"
